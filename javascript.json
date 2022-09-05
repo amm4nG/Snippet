@@ -1,0 +1,26 @@
+{
+	"Ajax":{
+		"prefix": "ajax",
+		"body": [
+			"$.ajax({",
+			"\turl: '$1'," ,
+			"\tmethod: '$2'," ,
+			"\ttype: '$3'," ,
+			"\tsuccess: function($4){" ,
+			"\t\tconsole.log('Success')",
+			"\t}",
+			"\terror: function(){" ,
+			"\t\tconsole.log('Error')",
+			"\t}",
+			"})"
+		]
+	},
+	"onClick":{
+		"prefix": "click",
+		"body": [
+			"$('#$1').on('click', function(){",
+            "\t$2",
+            "})"
+		]
+	}
+}
