@@ -1,0 +1,27 @@
+{
+	"public-class": {
+		"prefix": "cla",
+		"body": [
+			"public class $1{",
+			"\t$2",
+			"}"
+		],
+		"description": "Class Object"
+	},
+	"import-util-*": {
+		"prefix": "util",
+		"body": [
+			"import java.util.*;"
+		],
+		"description": "import java util*"
+	},
+	"scanner": {
+		"prefix": "scan",
+		"body": [
+			"Scanner scan = new Scanner(System.in);",
+			"$1",
+			"scan.close();"
+		],
+		"description": "Scanner"
+	}
+}
