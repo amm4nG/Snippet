@@ -1,0 +1,26 @@
+{	
+	"List type int": {
+		"prefix": "listnumber",
+		"body": [
+			"List<int> numbers = [];",
+			"$1"
+		],
+		"description": "List type int"
+	},
+	"Input": {
+		"prefix": "input",
+		"body": [
+			"stdout.write($1);",
+			"var variable = stdin.readLineSync();",
+			"print(variable);"
+		],
+		"description": "Input"
+	},
+	"Convert to int": {
+		"prefix": "converint",
+		"body": [
+			"int angka = int.parse(variable!);",
+		],
+		"description": "Convert to int"
+	}
+}
